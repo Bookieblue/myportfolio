@@ -1205,6 +1205,7 @@ justify-content: center;
   .portfolio-container {
     grid-template-columns: 1fr;
     grid-template-rows: 350px 350px 350px 350px 350px;
+    row-gap: 0px;
   }
 
   .portfolio-container :nth-child(1) {
