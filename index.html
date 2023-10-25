@@ -556,13 +556,14 @@
                     <div class="contact-form">
                         <form action="contact.php" method="post">
                             <div class="first-row">
-                                <input type="text" placeholder="Your Name">
-                                <input type="text" placeholder="Your Email">
+                                <input type="text" name="name" placeholder="Your Name">
+                                <input type="text" name="email" placeholder="Your Email">
                             </div>
-                            <input type="text" placeholder="Subject">
+                            <input type="text" name="subject" placeholder="Subject">
                             <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
                             <div class="btn-con">
                                 <button class="btn" name="btn-send">Send Message</button>
+                                <span>Sending your message...</span>
                             </div>
                         </form>
                     </div>
