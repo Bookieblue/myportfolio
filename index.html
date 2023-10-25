@@ -554,13 +554,13 @@
                 </div>
                 <div class="third-row">
                     <div class="contact-form">
-                        <form name="contact" method="post" data-netlify="true" onsubmit="submit">
+                        <form name="contact" method="post" data-netlify="true" action="./success.html" onsubmit="submit">
                             <div class="first-row">
-                                <input type="text" name="name" placeholder="Your Name">
-                                <input type="text" name="email" placeholder="Your Email">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="text" name="email" placeholder="Your Email" required>
                             </div>
-                            <input type="text" name="subject" placeholder="Subject">
-                            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
                             <div class="btn-con">
                                 <button class="btn" type="submit" name="btn-send">Send Message</button>
                                 <span>Sending your message...</span>
