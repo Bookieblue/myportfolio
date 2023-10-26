@@ -86,7 +86,6 @@ const nextButton = document.querySelector('.fa.fa-chevron-right');
 
 
 
-
       
 
   
