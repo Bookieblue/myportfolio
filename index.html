@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oluwabukola Fasan</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Assets/images//favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
@@ -13,6 +17,7 @@
 </head>
 
 <body>
+
     <section class="home">
         <div class="home-container active" id="home">
 
@@ -37,8 +42,8 @@
                     </div>
                 </nav>
                 <div class="header">
-                    <i class="fa fa-bars fa-3x active"></i>
-                    <i class="fa fa-times"></i>
+                    <i class="fa fa-bars fa-3x active" onclick="changeIcon(this)"></i>
+                    <!-- <i class="fa fa-times"></i> -->
                 </div>
             </div>
             <div class="socials">
@@ -49,6 +54,7 @@
             </div>
         </div>
     </section>
+    <section class="main-conatiner">
     <!--About Section-->
     <section class="about" id="section">
         <div class="about-main" id="about">
@@ -65,65 +71,29 @@
             </h2>
             <div class="about-container">
                 <div class="img-container">
-                    <img src="./Assets/images/darkmodebg.png" id="img">
+                    <img src="./Assets/images/My pics.JPG" id="img" height="350px">
                 </div>
                 <div class="text-container">
                     <h3>Front End Developer</h3>
                     <p>
-                        Hi, I am Oluwabukola. A Front-End Developer and UI/UX Designer that developed a passion for
-                        aesthesics, user experience and user interface design.</p>
-
-                    <p> I love working on amazing projects, building designs and translating UI/UX wireframes into
-                        functional applications to solve a problem, these are my favorite part of tech and my journey
-                        has been great so far.</p>
-
-                    <p> I have collaborated with designers and developers to work on a project using Git version control
-                        system. I am currently learning to improve my skills on object-oriented programming language.
+                        Hello, I'm Oluwabukola, a math lover turned coding maestro. Ever since I 
+                        found joy in crunching numbers, I discovered a passion for solving problems. 
+                        That passion led me straight into the captivating world of front-end development.
                     </p>
 
-                    <div class="">
-                        <div class="chevrons">
-                            <div class="chevron-right">
-                                <div>
-                                    <i class="fa fa-chevron-circle-right"></i>Name: Fasan Oluwabukola Chloe
-                                </div>
-                                <div>
-                                    <i class="fa fa-chevron-circle-right"></i>Email: oluwabukola.fasan@gmail.com
-                                </div>
-                                <div>
-                                    <i class="fa fa-chevron-circle-right"></i>location: Nigeria
-                                </div>
-                            </div>
-                        </div>
+                    <p> For me, Front-end development is like unlocking the secrets of a design puzzle. 
+                        Think of HTML, CSS, and JavaScript as my superhero trio. Every line of code is a
+                         move, and the screen is my canvas. It's not just about making things work; it's 
+                         about crafting an interactive masterpiece that users will love.</p>
 
-                    </div>
+                    <p> But guess what? I'm not stopping at the basics.
+                         I'm riding the wave of the latest industry trends, working seamlessly with 
+                         React, Tailwind CSS, and Next.js—the superheroes of the coding realm. It's 
+                         not just about keeping up; it's about setting the pace, embracing the tools 
+                         that define the future. Let's keep creating and solving, one line at a time! 🚀💡
+                    </p>
                 </div>
             </div>
-            <!--clients-->
-            <!-- <div class="clients">
-                <div class="clients-cards">
-                    <div class="clients-text">
-                        <i class="fa fa-handshake-o"></i>
-                        <h3>232</h3>
-                        <p>Happy clients</p>
-                    </div>
-                    <div class="clients-text">
-                        <i class="fa fa-arrows"></i>
-                        <h3>532</h3>
-                        <p>projects</p>
-                    </div>
-                    <div class="clients-text">
-                        <i class="fa fa-phone-square"></i>
-                        <h3>1432</h3>
-                        <p>Hours of support</p>
-                    </div>
-                    <div class="clients-text">
-                        <i class="fa fa-certificate"></i>
-                        <h3>5</h3>
-                        <p>Awards</p>
-                    </div>
-                </div>
-            </div> -->
             <!--Skills-->
             <div class="skills">
                 <div class="heading">
@@ -183,6 +153,24 @@
                     <div class="skill-bar">
                         <div class="info">
                             <p>Github</p>
+                            <p class="percent">60%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="github"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>TypeScript</p>
+                            <p class="percent">70%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="raect"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Next</p>
                             <p class="percent">60%</p>
                         </div>
                         <div class="bar">
@@ -365,7 +353,7 @@
                     <div class="contents">
                         <div class="box">
                             <h3>FRONT-END DEVELOPER (INTERN)</h3>
-                            <h4>2022 - Present</h4>
+                            <h4>Jul 2023 - Nov 2023</h4>
                             <p class="location">Sabi Programmers, Akure</p>
                             <ul>
                                 <li>Translating UI/UX designs into actual codes using HTML, Tailwind CSS, JavaScript and
@@ -380,7 +368,7 @@
                         </div>
                         <div class="box">
                             <h3>UI/UX DESIGNER</h3>
-                            <h4>2022 - Present</h4>
+                            <h4>Dec 2022 - Dec 2023</h4>
                             <p class="location">Onract, Manchester, England, United Kingdom (Remote)</p>
                             <ul>
                                 <li>Gather and evaluate user requirements in collaboration with product managers and
@@ -410,6 +398,7 @@
             <h2>
                 MY SERVICES
             </h2>
+            <p>Allow me to outline the value I can bring to the table</p>
             <div class="services-card">
                 <div class="services-text">
                     <i class="fa fa-bullseye fa-2x" aria-hidden="true"></i>
@@ -417,30 +406,30 @@
                     <p>Building the client’s side and improving the functionality of the website application</p>
                 </div>
                 <div class="services-text">
-                    <i class="fa fa-bullseye fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
                     <h3>UI/UX design and prototype</h3>
                     <p>Improving the user interface and experience that encourages users to stick with the brand or
                         product</p>
                 </div>
                 <div class="services-text">
-                    <i class="fa fa-bullseye fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-asterisk fa-2x" aria-hidden="true"></i>
                     <h3>Website design</h3>
                     <p>Working on the appearance, layout of the website application and To build reusable codes.</p>
                 </div>
                 <div class="services-text">
-                    <i class="fa fa-bullseye fa-2x" aria-hidden="true"></i>
-                    <h3>Front-End development</h3>
-                    <p>Building the client’s side andimproving the functionality of the website application.</p>
+                    <i class="fa fa-leaf fa-2x" aria-hidden="true"></i>
+                    <h3>Code quality and maintenance</h3>
+                    <p>Writing code that is clear, maintainable, and scalable is essential for prolonging the lifespan of your projects.</p>
                 </div>
                 <div class="services-text">
-                    <i class="fa fa-bullseye fa-2x" aria-hidden="true"></i>
-                    <h3>Front-End development</h3>
-                    <p>Building the client’s side and improving the functionality of the website application</p>
+                    <i class="fa fa-retweet fa-2x" aria-hidden="true"></i>
+                    <h3>SEO</h3>
+                    <p>Implementing strategies and best practices to enhance a website's visibility on search engines.</p>
                 </div>
                 <div class="services-text">
-                    <i class="fa fa-bullseye fa-2x" aria-hidden="true"></i>
-                    <h3>Front-End development</h3>
-                    <p>Building the client’s side and improving the functionality of the website application</p>
+                    <i class="fa fa-space-shuttle fa-2x" aria-hidden="true"></i>
+                    <h3>Debugging</h3>
+                    <p> Identifying and fixing issues or errors within the codebase.</p>
                 </div>
             </div>
     </section>
@@ -458,39 +447,111 @@
             <h2>
                 MY WORKS
             </h2>
+            <p>
+                Check out some of the projects that I have worked on
+            </p>
             <div class="portfolio-container">
                 <div class="project-1">
+                    <img src="./Assets/images/project-covers/second-project.png" alt="">
                     <i class="fa fa-compress first"></i>
-                    <img src="./Assets/images/project-covers/project.png" alt="">
-                    <a href="./project-details.html"><i class="fa fa-link" title="view project details"></i></a>
+                    <a href="" data-target="project-details-1" class="view-details"><i class="fa fa-link" title="view project details"></i></a>
                     <i class="fa fa-compress second"></i>
                 </div>
                 <div class="project-1">
-                    <img src="./Assets/images/project-covers/project3 (2).jpeg" alt="">
+                    <img src="./Assets/images/project-covers/3rd project.png" alt="">
                     <i class="fa fa-compress first"></i>
-                    <a href="./project-details.html"><i class="fa fa-link" title="view project details"></i></a>
+                    <a href="#" data-target="project-details-2" class="view-details"><i class="fa fa-link" title="view project details"></i></a>
                     <i class="fa fa-compress second"></i>
                 </div>
                 <div class="project-1">
-                    <img src="./Assets/images/project-covers/hyyyyy.webp" alt="">
+                    <img src="./Assets/images/project-covers/cover-1 (2).png" alt="">
                     <i class="fa fa-compress first"></i>
-                    <a href="./project-details.html"><i class="fa fa-link" title="view project details"></i></a>
-                    <i class="fa fa-compress second"></i>
-                </div>
-                <div class="project-1">
-                    <img src="./Assets/images/project-covers/letscode.jpeg" alt="">
-                    <i class="fa fa-compress first"></i>
-                    <a href="./project-details.html"><i class="fa fa-link" title="view project details"></i></a>
-                    <i class="fa fa-compress second"></i>
-                </div>
-                <div class="project-1">
-                    <img src="./Assets/images/project-covers/project2.jpg" alt="">
-                    <i class="fa fa-compress first"></i>
-                    <a href="./project-details.html"><i class="fa fa-link" title="view project details"></i></a>
+                    <a href="#" data-target="project-details-3" class="view-details"><i class="fa fa-link" title="view project details"></i></a>
                     <i class="fa fa-compress second"></i>
                 </div>
             </div>
         </div>
+        <!-- modal for project one -->
+        <div id="project-details-1" class="modal">
+            <div class="modal-content">
+              <!-- Content for the modal-->
+              <span class="close">&times;</span>
+              <section class="project-details">
+                <div class="project-container">
+                    <h2>Portfolio Details</h2>
+                    <div class="content">
+                        <div class="carousel">
+                            <figure class="slide">
+                                <img src="./Assets/images/project-covers/second-project.png" alt=""/>
+                                <img src="./Assets/images/project-covers/2nd-project-cover 2.png" alt=""/>
+                                <img src="./Assets/images/project-covers/2nd-project-cover-3.png" alt="" />
+                                <img src="./Assets/images/project-covers/2nd-project-cover-3.png" alt="" />
+                                <img src="./Assets/images/project-covers/second-project.png" alt=""/>
+                            </figure>
+                        </div>
+                     <div class="project-info">
+                         <h4> Project Information</h4>
+                         <p><span>Category: </span> Web Design</p>
+                         <p><span>Client: </span> Peronal Project</p>
+                         <p><span>Project date: </span>13th January, 2024</p>
+                         <p><span>Project URL: </span><a href="https://ear2.netlify.app/" target="_blank">Ear1 App Landing Page</a></p>
+                         <p><span>Github Link: </span><a href="https://github.com/Bookieblue/Ear1" target="_blank">Source Code</a></p>
+                         <br>
+                         <br>
+                         <p>Introducing the Ear1 app landing page – a unique platform connecting individuals
+                            with top influencers and celebrities. Users unlock direct access to influencers, 
+                            enabling them to ask questions, discuss their progress, and draw insights from the 
+                            experiences of these influential figures. All this is designed to fuel personal 
+                            improvement and ignite fresh ideas.
+                            <br>
+                            Technologies used are Next.js, TypeScript, Tailwind CSS for styling
+                             and AOS  (Animations On Scroll) for an enhanced user experience.
+                        </p>
+                     </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+          </div>
+     <!-- modal for project two -->
+     <div id="project-details-3" class="modal">
+        <div class="modal-content">
+          <!-- Content for the modal-->
+          <span class="close">&times;</span>
+          <section class="project-details">
+            <div class="project-container">
+                <h2>Portfolio Details</h2>
+                <div class="content">
+                    <div class="carousel">
+                        <figure class="slide">
+                            <img src="./Assets/images/project-covers/cover-1 (1).png" alt=""/>
+                            <img src="./Assets/images/project-covers/cover-1 (2).png" alt=""/>
+                            <img src="./Assets/images/project-covers/cover-1 (3).png" alt="" />
+                            <img src="./Assets/images/project-covers/cover-1 (3).png" alt="" />
+                            <img src="./Assets/images/project-covers/cover-1 (1).png" alt=""/>
+                        </figure>
+                    </div>
+                    <div class="project-info">
+                        <h4> Project Information</h4>
+                        <p><span>Category: </span> Web Design</p>
+                        <p><span>Client: </span> Peronal Project</p>
+                        <p><span>Project date: </span>17 October, 2023</p>
+                        <p><span>Project URL: </span><a>www.project.com</a></p>
+                        <br>
+                        <br>
+                        <p>Introducing my portfolio website, skillfully developed
+                       using only HTML, CSS, and JavaScript. This project posed a challenge, pushing me
+                       to master the creation of tabs for seamless navigation between sections.the website includes
+                       a distinctive dark-mode feature, allowing users to easily toggle between dark and light modes. 
+                       This undertaking enhanced my proficiency in web development through hands-on experience with 
+                       these fundamental technologies.
+                       </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+      </div>
     </section>
     <!--contact section-->
     <section class="contact" id="section">
@@ -506,6 +567,9 @@
             <h2>
                 CONTACT ME
             </h2>
+            <p>
+                Let's meet and explore potential collaboration opportunities.
+            </p>
             <div class="contact-card">
                 <div class="first-row">
                     <div class="contact-text">
@@ -571,10 +635,7 @@
             </div>
         </div>
     </section>
-    <footer>
-
-    </footer>
-</body>
+</section>
 <script src="./app.js">
 </script>
 </body>
