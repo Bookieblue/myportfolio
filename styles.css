@@ -1313,6 +1313,13 @@ h6 {
   margin-top: 25px;
 }
 
+.first-row-1
+ {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+
 .third-row {
   width: 100%;
   margin-top: 25px;
@@ -1435,7 +1442,10 @@ textarea::placeholder {
   .second-row {
     flex-direction: column;
   }
-
+  .first-row-1 {
+    flex-direction: column;
+    gap:0px;
+  }
   .contact-text {
     font-size: medium;
     width: 100%;
