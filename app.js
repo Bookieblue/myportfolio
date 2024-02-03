@@ -53,7 +53,7 @@ links.forEach((link, index) => {
 });
 
 
-//modal
+//project details modal
 // Geting all elements with class "view-details"
 document.addEventListener('DOMContentLoaded', function () {
     const viewDetailsLinks = document.querySelectorAll('.view-details');
@@ -84,5 +84,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+//Testimonial slides
+
 
 
