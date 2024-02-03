@@ -417,6 +417,12 @@ h6 {
 
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: cover; /* or any other appropriate style for smaller screens */
+  }
+}
+
 @media only screen and (min-width: 901px) {
   .fa.fa-bars {
     display: none !important;
