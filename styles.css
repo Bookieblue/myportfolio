@@ -289,6 +289,7 @@ h6 {
   right: -15px;
 }
 
+
 /* second view of navbar ends here */
 @media (max-width: 500px) {
   .home-view2 .home-container {
@@ -343,6 +344,7 @@ h6 {
   .nav-center,
   .light-dark-toggle i {
     display: none;
+    position: relative;
   }
 
   .home-container h1 {
@@ -366,7 +368,7 @@ h6 {
   }
 
   .fa.fa-bars {
-    display: none;
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -375,9 +377,6 @@ h6 {
     font-size: 30px;
   }
 
-  .fa.fa-bars.active {
-    display: block;
-  }
 
   .light-dark-toggle i {
     display: block;
@@ -388,8 +387,8 @@ h6 {
     display: block;
     position: absolute;
     top: 0px;
-    right: 0;
-    width: 100%;
+    left: 0;
+    width: 70%;
     height: 100%;
     /* border: 1px solid var(--text-color); */
     padding: 10px 20px;
@@ -407,7 +406,7 @@ h6 {
   }
 
   .fa.fa-times {
-    display: none;
+    display:block;
     position: absolute;
     top: 0;
     right: 0;
@@ -416,43 +415,14 @@ h6 {
     font-size: 30px;
   }
 
-  .fa.fa-times.active {
-    display: block;
-  }
-
-  /* .role::before {
-    content: "";
-    position: absolute;
-    width: 32%;
-    background-color: var(--primary-color);
-    height: 4px;
-    bottom: 0px;
-    top: 92%;
-    right: 68%;
-  }
-  .role::after {
-    content: "";
-    position: absolute;
-    width: 32%;
-    background-color: var(--primary-color);
-    height: 4px;
-    bottom: 0px;
-    top: 38%;
-    right: 16%;
-  } */
 }
 
-/* @media (min-width: 800px) and (max-width: 900px) {
-  body {
-    background-position: center;
+@media only screen and (min-width: 901px) {
+  .fa.fa-bars {
+    display: none !important;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1000px) {
-  body {
-    background-position: 450px;
-  }
-} */
   
 /* Media query for extra small screens (Mobile Portrait) */
 @media (max-width: 576px) {

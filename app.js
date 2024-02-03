@@ -12,26 +12,21 @@ icon.onclick = function () {
 
 //NavToggle
 var nav = document.querySelector('.nav-center');
-// var navOpen =document.querySelector('.fa.fa-bars');
-// var navClose =document.querySelector('.fa.fa-times');
+var navOpen =document.querySelector('.fa.fa-bars');
+var navClose =document.querySelector('.fa.fa-times');
 
-// navOpen.addEventListener('click', ()=>{
-//     nav.classList.add('show-nav');
-//     navOpen.classList.remove('active');
-//     navClose.classList.add("active")
-// });
+navOpen.addEventListener('click', ()=>{
+    nav.classList.add('show-nav');
+    navClose.style.display = "block";
+});
 
-// navClose.addEventListener('click', ()=>{
-//     nav.classList.remove('show-nav');
-//     navOpen.classList.add('active');
-//     navClose.classList.remove("active")
-// });
+navClose.addEventListener('click', ()=>{
+    nav.classList.remove('show-nav');
+});
 
-let changeIcon = function (icon) {
-  icon.classList.toggle("fa-times");
-};
 
-// To show/hide sections starts here------------------------
+
+// To show/hide sections starts here----------
 var links = document.querySelectorAll(".link");
 var sections = document.querySelectorAll("#section");
 var homeSection = document.querySelector(".home");
@@ -55,12 +50,9 @@ links.forEach((link, index) => {
   });
 });
 
-// slider navigation
-const prevButton = document.querySelector(".fa.fa-chevron-left");
-const nextButton = document.querySelector(".fa.fa-chevron-right");
 
 //modal
-// Get all elements with class "view-details"
+// Geting all elements with class "view-details"
 document.addEventListener('DOMContentLoaded', function () {
     const viewDetailsLinks = document.querySelectorAll('.view-details');
 
