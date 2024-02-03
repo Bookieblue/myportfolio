@@ -744,6 +744,25 @@ h6 {
   padding: 30px 0;
 }
 
+.fa.fa-address-card {
+  font-size: xx-large;
+  color: rgb(170, 28, 106);
+}
+
+.fa.fa-binoculars {
+  font-size: xx-large;
+  color: rgb(151, 241, 133);
+}
+
+.fa.fa-file-code-o {
+  font-size: xx-large;
+  color: rgb(34, 165, 194);
+}
+
+.fa.fa-bullhorn {
+  font-size: xx-large;
+  color: rgb(247, 255, 28);
+}
 
 
 .wrapper {
