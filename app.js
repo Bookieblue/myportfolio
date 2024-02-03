@@ -38,6 +38,7 @@ links.forEach((link, index) => {
     });
     sections.forEach((section) => {
       section.style.display = "none";
+
     });
     links[index].classList.add("active");
     sections[index].style.display = "block";
@@ -46,6 +47,7 @@ links.forEach((link, index) => {
     nav.classList.remove("show-nav");
     navClose.style.display = "none";
     navOpen.style.display = "block";
+    document.body.style.backgroundImage = 'none';
     e.preventDefault();
   });
 });
