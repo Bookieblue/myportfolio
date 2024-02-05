@@ -47,7 +47,6 @@ links.forEach((link, index) => {
     nav.classList.remove("show-nav");
     navClose.style.display = "none";
     navOpen.style.display = "block";
-    document.body.style.backgroundImage = 'none';
     e.preventDefault();
   });
 });
