@@ -38,7 +38,6 @@ links.forEach((link, index) => {
     });
     sections.forEach((section) => {
       section.style.display = "none";
-
     });
     links[index].classList.add("active");
     sections[index].style.display = "block";
@@ -47,9 +46,13 @@ links.forEach((link, index) => {
     nav.classList.remove("show-nav");
     navClose.style.display = "none";
     navOpen.style.display = "block";
-    e.preventDefault();
+    if(window.innerWidth <= 768){
+      document.body.style.backgroundImage = "none"
+    }
+    e.preventDefault()
   });
 });
+
 
 
 //project details modal
@@ -84,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-//Testimonial slides
+
 
 
 

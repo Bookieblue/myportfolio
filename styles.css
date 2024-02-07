@@ -226,6 +226,7 @@ h6 {
   height: fit-content;
   background-color: var(--hometab-bg);
   z-index: 2;
+  top: 0;
   /* animation: fallin 0.1s linear ; */
 }
 
@@ -864,9 +865,6 @@ h6 {
     min-width: calc(100% - 4px); /* Single slide for small screens */
   }
   
-  .about, .resume, .portfolio, .contact {
-    background-image: none;
-  }
 }
  
 .fa.fa-quote-left, .fa.fa-quote-right
