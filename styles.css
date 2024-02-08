@@ -828,6 +828,7 @@ h6 {
   margin-top: 20px;
   transition: transform 0.5s ease-in-out;
   overflow: hidden;
+  position: relative;
 }
 
 
@@ -866,9 +867,20 @@ h6 {
   .wrapper .slide {
     min-width: calc(100% - 4px); /* Single slide for small screens */
   }
+}
+
+@media (max-width: 400px) {
+  .wrapper .slide {
+    height: 55% !important;
+  }
+  .slide .client-1 {
+    top:140px !important;
+  }
+  .slide .title{
+    top:255px !important;
+  }
   
 }
- 
 .fa.fa-quote-left, .fa.fa-quote-right
 {
   color: var(--left-outline);
@@ -877,9 +889,11 @@ h6 {
   /* margin-top:28px; */
 }
 
-.slide .name{
-  margin-top: 120px;
+.slide .title{
+  position: absolute;
+  top:200px;
 }
+
 
 .slide .roles{
   margin-top: 3px;
