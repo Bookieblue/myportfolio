@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Display the modal
             modal.style.display = 'block';
 
-            // Add an event listener to close the modal when the close button is clicked
+            // Adding an event listener to close the modal when the close button is clicked
             const closeModal = modal.querySelector('.close');
             closeModal.addEventListener('click', function () {
                 // Enable body scroll when the modal is closed
