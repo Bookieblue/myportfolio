@@ -1504,6 +1504,10 @@ h6 {
   font-size: xx-large;
 }
 
+.socials-contact a, .socials a{
+  color: black;
+}
+
 .socials-profile i:hover {
   color: var(--primary-color);
 }
