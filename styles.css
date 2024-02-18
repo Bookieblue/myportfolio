@@ -1515,6 +1515,10 @@ h6 {
   width: 100%;
 }
 
+.contact .email{
+  word-break: break-all;
+}
+
 form input:nth-child(3),
 textarea {
   grid-column-start: 1;
