@@ -210,6 +210,7 @@ h6 {
   border-radius: 100%;
   padding: 10px 12px;
   font-size: large;
+  color: var(--secondary-color)
 }
 
 .socials i:hover {
@@ -1500,8 +1501,8 @@ h6 {
   text-align: center;
 }
 
-.socials.profile i {
-  font-size: xx-large;
+.socials-profile i {
+  color: var(--secondary-color);
 }
 
 .socials-contact a, .socials a{
