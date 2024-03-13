@@ -1,12 +1,13 @@
 // Dark/light mode toggle
 var icon = document.getElementById("icon");
-var img = document.getElementById("img");
 icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
-    // img.src = "./Assets/images/lightmode-bg2.png";
+       icon.classList.remove('fa-toggle-on');
+       icon.classList.add('fa-toggle-off');
   } else {
-    // img.src = "./Assets/images/me.png";
+    icon.classList.add('fa-toggle-on');
+    icon.classList.remove('fa-toggle-off');
   }
 };
 
