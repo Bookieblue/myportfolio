@@ -1434,7 +1434,20 @@ h6 {
   .portfolio {
     padding: 60px 50px;
   }
+
+  .close {
+    margin-right: 20px;
+    margin-top: 4px;
+  }
 }
+
+@media (max-width: 1000px) {
+  .close {
+    margin-right: 20px;
+    margin-top: 4px;
+  }
+}
+
 
 /* contact section */
 .contact {
