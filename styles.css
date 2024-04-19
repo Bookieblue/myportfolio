@@ -1789,7 +1789,7 @@ img {
   }
 
   .project-details {
-    padding: 30px 10px;
+    padding: 30px 30px;
   }
 
   .project-container {
@@ -1859,6 +1859,9 @@ img {
  .modal-main{
   padding: 0 20px;
  }
+ .project-details {
+  padding: 15px 15px;
+}
 }
 
 
