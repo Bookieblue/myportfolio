@@ -1603,10 +1603,10 @@ textarea::placeholder {
 .btn {
   background-color: var(--primary-color);
   color: white;
-  width: 30%;
-  padding: 20px 10px;
+  width: 20%;
+  padding: 10px 5px;
   border-radius: 6px;
-  margin-top: 25px;
+  margin-top: 10px;
   border: var(--primary-color);
 }
 
